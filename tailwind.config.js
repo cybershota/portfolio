@@ -6,13 +6,11 @@ module.exports = {
   purge: [],
   theme: {
     extend: {
-      colors:{
-        'primary': '#4b57db'
-      }
+      colors: {
+        primary: '#4b57db',
+      },
     },
   },
   variants: {},
-  plugins: [
-    require('@tailwindcss/typography'),
-  ],
-}
+  plugins: [require('@tailwindcss/typography')],
+};
