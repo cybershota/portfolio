@@ -12,7 +12,14 @@
       </div>
 
       <div v-for="project of projects" :key="project.slug">
-        <Projects :slug="project.slug" :title="project.title" :description="project.description" />
+        <Projects
+          :slug="project.slug"
+          :thumbnail="project.thumbnail"
+          :livedemo="project.livedemo"
+          :sourcecode="project.sourcecode"
+          :title="project.title"
+          :description="project.description"
+        />
       </div>
     </div>
 

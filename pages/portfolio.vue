@@ -5,7 +5,14 @@
     </div>
 
     <div v-for="project of projects" :key="project.slug">
-      <Projects :slug="project.slug" :title="project.title" :description="project.description" />
+      <Projects
+        :slug="project.slug"
+        :thumbnail="project.thumbnail"
+        :livedemo="project.livedemo"
+        :sourcecode="project.sourcecode"
+        :title="project.title"
+        :description="project.description"
+      />
     </div>
   </div>
 </template>
@@ -21,7 +28,6 @@ export default {
 
   async asyncData({ $content }) {
     const projects = await $content('project').fetch();
-    console.log('==========>', projects);
     return {
       projects,
     };
