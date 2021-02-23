@@ -1,24 +1,32 @@
 <template>
   <div class="wrapper-small md:px-10">
-      <div class="text-center mt-2 border-b-2 pb-3">
-        <h3 class="text-xl md:text-2xl lg:text-3xl text-gray-700 font-semibold">My Recent Work.</h3>
-      </div>
+    <div class="text-center mt-2 border-b-2 pb-3">
+      <h3 class="text-xl md:text-2xl lg:text-3xl text-gray-700 font-semibold">My Recent Work.</h3>
+    </div>
 
-      <div>
-        <Projects />
-      </div>
+    <div v-for="project of projects" :key="project.slug">
+      <Projects :slug="project.slug" :title="project.title" :description="project.description" />
+    </div>
   </div>
 </template>
 
 <script>
-import Projects from '../components/Projects.vue'
+import Projects from '../components/Projects.vue';
 export default {
-    components:{
-      Projects
-    }
-}
+  components: {
+    Projects,
+  },
+
+  methods: {},
+
+  async asyncData({ $content }) {
+    const projects = await $content('project').fetch();
+    console.log('==========>', projects);
+    return {
+      projects,
+    };
+  },
+};
 </script>
 
-<style>
-
-</style>
+<style></style>
