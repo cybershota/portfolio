@@ -1,6 +1,6 @@
 ---
 title: Todo Fun
-thumbnail: https://github.com/cybershota/imagebed/blob/main/todofun_mobile.gif
+thumbnail: https://raw.githubusercontent.com/cybershota/imagebed/main/todofun_mobile.gif
 livedemo: https://cybershota.github.io/todofun/#/
 sourcecode: https://github.com/cybershota/todofun
 date: 2021-02-24T07:04:28.113Z
