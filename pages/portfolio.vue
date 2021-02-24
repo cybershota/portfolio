@@ -12,6 +12,7 @@
         :sourcecode="project.sourcecode"
         :title="project.title"
         :description="project.description"
+        :hashtag="project.hashtag"
       />
     </div>
   </div>

@@ -12,10 +12,10 @@
 
         <div class="navbar hidden md:block">
           <nuxt-link class="nav-link hover:text-primary" to="portfolio">Portfolio</nuxt-link>
-          <nuxt-link class="nav-link hover:text-primary" to="blog">Blog</nuxt-link>
+          <!-- <nuxt-link class="nav-link hover:text-primary" to="blog">Blog</nuxt-link> -->
           <nuxt-link class="nav-link hover:text-primary" to="about">About</nuxt-link>
-          <nuxt-link class="nav-link hover:text-primary" to="contact">Contact</nuxt-link>
-          <nuxt-link class="nav-link hover:text-primary" to="credits">Credits</nuxt-link>
+          <!-- <nuxt-link class="nav-link hover:text-primary" to="contact">Contact</nuxt-link> -->
+          <!-- <nuxt-link class="nav-link hover:text-primary" to="credits">Credits</nuxt-link> -->
         </div>
 
         <div class="ml-3 flex md:hidden">

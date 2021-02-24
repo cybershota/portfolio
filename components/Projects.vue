@@ -7,6 +7,7 @@
       <div class="flex flex-col justify-between max-w-lg mx-auto">
         <div class="txt md:px-5 lg:px-0">
           <h2 class="text-xl font-semibold text-gray-800">{{ title }}</h2>
+          <h4 class="font-semibold text-primary">{{ hashtag }}</h4>
           <p class="text-base text-gray-700 my-3">
             {{ description }}
           </p>
@@ -32,7 +33,7 @@
 <script>
 export default {
   name: 'Projects',
-  props: ['title', 'description', 'slug', 'thumbnail', 'livedemo', 'sourcecode'],
+  props: ['title', 'description', 'slug', 'thumbnail', 'livedemo', 'sourcecode', 'hashtag'],
 };
 </script>
 

@@ -3,9 +3,11 @@ title: Todo Fun
 thumbnail: https://raw.githubusercontent.com/cybershota/imagebed/main/todofun_mobile.gif
 livedemo: https://cybershota.github.io/todofun/#/
 sourcecode: https://github.com/cybershota/todofun
+hashtag: '#React #ReactHooks #framer-motion #IndexedDB #PWA'
 date: 2021-02-24T07:04:28.113Z
-description: 經典 todo list 練習的改作。使用 React 框架與 Framer motion 製作可隨機抽籤待辦事項的應用，讓 todo list 更有趣！
+description: Classic todo list practice. Using React and Framer motion build up a random draw straws PWA application.
 ---
+
 # todoFun 抽個好玩的事
 
 ![](https://github.com/cybershota/imagebed/blob/main/todoFUN-192.png)
