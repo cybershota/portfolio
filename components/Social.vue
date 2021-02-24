@@ -1,31 +1,33 @@
 <template>
   <div class="wrapper text-center">
-      <a class="social-link hover:text-primary" href="#"  aria-label="Github">
-        <i class='bx bxl-github'></i>
-      </a>
+    <a
+      class="social-link hover:text-primary"
+      href="https://github.com/cybershota"
+      aria-label="Github"
+    >
+      <i class="bx bxl-github"></i>
+    </a>
 
-      <a class="social-link hover:text-primary" href="#"  aria-label="Twitter">
+    <!-- <a class="social-link hover:text-primary" href="#"  aria-label="Twitter">
         <i class='bx bxl-twitter'></i>
-      </a>
+      </a> -->
 
-      <a class="social-link hover:text-primary" href="#" aria-label="Instagram">
+    <!-- <a class="social-link hover:text-primary" href="#" aria-label="Instagram">
         <i class='bx bxl-instagram-alt'></i>
-      </a>
+      </a> -->
 
-      <a class="social-link hover:text-primary" href="#"  aria-label="LinkedIn">
+    <!-- <a class="social-link hover:text-primary" href="#"  aria-label="LinkedIn">
         <i class='bx bxl-linkedin-square'></i>
-      </a>
+      </a> -->
   </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style>
-    .social-link{
-        @apply mx-3 text-2xl text-gray-800;
-    }
+.social-link {
+  @apply mx-3 text-2xl text-gray-800;
+}
 </style>
