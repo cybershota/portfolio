@@ -3,8 +3,10 @@ title: Twitch Remake
 thumbnail: https://raw.githubusercontent.com/cybershota/imagebed/main/twitch-carosuel-small.gif
 livedemo: https://twitch.zangwang.tw/
 sourcecode: https://github.com/cybershota/twitch-homepage-remake
+hashtag: "#JavaScript #AJAX #CSS #UI"
 date: 2021-02-23T15:52:44.873Z
-description: 串接 Legacy Twitch API v5 重製 Twitch 首頁的切版練習，製作 3D 效果 Carousel 與縮圖增厚凸起效果。
+description: "Fetching Legacy Twitch API v5 to remake Twitch homepage, building
+  3D carousel and thumbnail hover effect through pure CSS. "
 ---
 # Twitch 首頁復刻
 串接 Legacy Twitch API v5 重製 Twitch 首頁的切版練習，製作 3D 效果 Carousel 與縮圖增厚凸起效果。
