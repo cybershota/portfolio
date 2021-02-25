@@ -2,7 +2,7 @@
 
 使用 Nuxt.js [開源專案 Monotone](https://github.com/dev-ggaurav/Monotone) 串接 Netlify CMS 做內容管理，部署於 Netlify。
 
--[Live Demo](https://portfolio.zangwang.tw/)
+- [Live Demo](https://portfolio.zangwang.tw/)
 
 ![](https://github.com/cybershota/imagebed/blob/main/portfoliozangwang.png)
 
