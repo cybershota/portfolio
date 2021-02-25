@@ -3,7 +3,7 @@ title: Podcast Board
 thumbnail: https://github.com/cybershota/imagebed/raw/main/podcastcomment_small.gif
 livedemo: http://podcastboard.zangwang.tw/public/index.php
 sourcecode: https://github.com/cybershota/podcastboard
-hashtag: '#PHP #SQL #JavaScript #Session #HistoryAPI #SPA'
+hashtag: '#PHP #MySQL #SPA'
 date: 2021-02-23T16:04:21.696Z
 description: A SoundClod-like podcast message board. Including member signup and login system, member authentication manage control panel. Improving website security with preventing XSS, SQL Injection and hashing member's password.
 ---

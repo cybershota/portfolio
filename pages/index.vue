@@ -56,7 +56,9 @@ export default {
     };
   },
   async asyncData({ $content }) {
-    const projects = await $content('project').fetch();
+    const projects = await $content('project')
+      .sortBy('date', 'desc')
+      .fetch();
     return {
       projects,
     };

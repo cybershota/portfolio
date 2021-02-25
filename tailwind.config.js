@@ -9,6 +9,9 @@ module.exports = {
       colors: {
         primary: '#4b57db',
       },
+      maxWidth: {
+        avatar: '150px',
+      },
     },
   },
   variants: {},

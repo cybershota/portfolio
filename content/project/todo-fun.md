@@ -3,7 +3,7 @@ title: Todo Fun
 thumbnail: https://raw.githubusercontent.com/cybershota/imagebed/main/todofun_mobile.gif
 livedemo: https://cybershota.github.io/todofun/#/
 sourcecode: https://github.com/cybershota/todofun
-hashtag: '#React #ReactHooks #framer-motion #IndexedDB #PWA'
+hashtag: '#React #FramerMotion #IndexedDB #PWA'
 date: 2021-02-24T07:04:28.113Z
 description: Classic todo list practice. Using React and Framer motion build up a random draw straws PWA application.
 ---
