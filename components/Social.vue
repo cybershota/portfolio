@@ -4,8 +4,19 @@
       class="social-link hover:text-primary"
       href="https://github.com/cybershota"
       aria-label="Github"
+      target="_blank"
+      rel="noreferrer"
     >
       <i class="bx bxl-github"></i>
+    </a>
+    <a
+      class="social-link hover:text-primary"
+      href="https://www.youtube.com/channel/UCkbdJMUhBXoUyCZW4-LF1VA/featured"
+      aria-label="Youtube"
+      target="_blank"
+      rel="noreferrer"
+    >
+      <i class="bx bxl-youtube"></i>
     </a>
 
     <!-- <a class="social-link hover:text-primary" href="#"  aria-label="Twitter">
